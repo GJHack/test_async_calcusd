@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.calcForm {
+  display: grid;
+  grid-auto-flow: row;
+  width: clamp(250px, 30vw, 600px);
+  row-gap: 10px;
+}
+
+.calcForm > * {
+  width: 99%;
+}
+
+.calcForm > input, .calcForm > select {
+  width: 95%;
+  padding: 10px 0 10px 4%;
+}
+.calcForm > label {
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.calcForm > button {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
